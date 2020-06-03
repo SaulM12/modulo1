@@ -16,5 +16,7 @@ public class Triangle {
 		this.side = side;
 	}
 
-
+public double calculatePerimeter() {
+	return this.side*3;
+}
 }
