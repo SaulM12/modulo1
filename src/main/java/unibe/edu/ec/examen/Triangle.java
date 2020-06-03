@@ -24,7 +24,7 @@ public double calculatePerimeter() {
 public double calculateArea(double height) {
 	return (this.side * height)/2;
 }
-public double calculateVolume(double sidePiramid, double heightPiramid) {
-	return (1/3)*sidePiramid*sidePiramid*heightPiramid;
+public double calculateVolume(double baseSide, double heightPiramid) {
+	return (baseSide*baseSide*heightPiramid)/3;
 }
 }

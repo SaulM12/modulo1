@@ -22,4 +22,8 @@ public void before() {
 public void testecalculateArea() {
 	assertEquals(35.76, triangle.calculateArea(8.94),0.1);
 }
+@Test
+public void testcalculateVolumen() {
+	assertEquals(130.66, triangle.calculateVolume(7.0, 8.0),0.10);
+}
 }
