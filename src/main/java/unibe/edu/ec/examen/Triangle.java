@@ -19,4 +19,8 @@ public class Triangle {
 public double calculatePerimeter() {
 	return this.side*3;
 }
+public double calculateArea(double height) {
+	return (this.side * height)/2;
+}
+
 }
