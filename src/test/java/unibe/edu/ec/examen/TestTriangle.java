@@ -10,13 +10,16 @@ public Triangle triangle;
 @Before
 public void before() {
 	triangle= new Triangle();
-	double side=7.5;
+	double side=8.0;
 	triangle.setSide(side);
 			
 }
 	@Test
 	public void testcalculatePerimeter() {
-		assertEquals(22.5, triangle.calculatePerimeter(),0.10);
+		assertEquals(24, triangle.calculatePerimeter(),0.10);
 	}
-
+@Test
+public void testecalculateArea() {
+	assertEquals(35.76, triangle.calculateArea(8.94),0.1);
+}
 }
