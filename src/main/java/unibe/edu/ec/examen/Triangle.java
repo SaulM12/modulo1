@@ -4,10 +4,12 @@ public class Triangle {
 	public double side;
 
 	public Triangle(double side) {
-		super();
 		this.side = side;
 	}
 
+	public Triangle() {
+		
+	}
 	public double getSide() {
 		return side;
 	}
@@ -22,5 +24,7 @@ public double calculatePerimeter() {
 public double calculateArea(double height) {
 	return (this.side * height)/2;
 }
-
+public double calculateVolume(double sidePiramid, double heightPiramid) {
+	return (1/3)*sidePiramid*sidePiramid*heightPiramid;
+}
 }
